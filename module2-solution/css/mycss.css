@@ -1,0 +1,54 @@
+h1{
+	text-align: center;	
+
+	font-size:50px;
+}
+.title{
+	width: 80px;
+	height: 30px;
+	background-color: #ff00f8;
+	font-size: 75%;
+	padding: 5px;
+	position: absolute;
+	text-align: center;
+	top: 0px;
+	right: 0px;
+	float: right;
+	border:black solid 2px;
+	box-sizing: border-box;
+}
+div{
+	font-size: 	75px;
+	position: relative;
+	
+}
+section{
+	position: relative;
+	background-color:grey;
+	margin: 20px;
+	box-sizing: border-box;
+	padding: 30px 10px 10px 10px;
+	border:2px solid black;
+	float: left;
+	font-size: 25%;
+
+}
+@media (min-width: 992px){
+.col-lg-4{
+	width:29%;
+}
+}
+@media (max-width:991px) and (min-width: 768px){
+.col-md-6{
+	width: 43%;
+	
+}
+.col-md-12{
+	width:95%;	
+}
+}
+@media (max-width: 767px){
+.col-sm-12{
+	width: 95%;	
+}
+}
