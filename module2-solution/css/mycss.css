@@ -50,5 +50,6 @@ section{
 @media (max-width: 767px){
 .col-sm-12{
 	width: 95%;	
+	margin: 5%;
 }
 }
